@@ -19,7 +19,7 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [{
     name: 'Jake Spurlock',
-    company: 'Web Producer, MAKE magazine',
+    company: 'Web Developer, MAKE magazine',
     gplus: 'http://gplus.to/whyisjake',
     twitter: '@whyisjake',
     www: 'http://www.jakespurlock.com',
