@@ -72,6 +72,28 @@ URL: https://code.google.com/p/io-2012-slides
 
 		</article>
 	</slide>
+	
+		<slide>
+		<hgroup>
+			<h2>Typical Web Developer Cycle...</h2>
+		</hgroup>
+		<article>
+			<pre class="prettyprint" data-lang="php">
+$sites = array( 'work', 'freelance', 'friend', 'personal', 'demo' );
+foreach( $sites as $site ) {
+	build('header');
+	build('pages');
+	build('footer');
+	build('content');
+	build('tables');
+	build('nav');
+	build('pages');
+	// It goes on and on...
+}
+
+			</pre>
+		</article>
+	</slide>
 
 	<slide class="jumbotron">
 		<hgroup>
@@ -512,7 +534,7 @@ add_action( 'wp_enqueue_scripts', 'make_enqueue_scriptsnstyles' );
 
 	<slide>
 		<hgroup>
-			<h2>Carosel Code</h2>
+			<h2>Carousel Code</h2>
 		</hgroup>
 		<article>
 			<pre class="prettyprint" data-lang="html">
@@ -536,7 +558,7 @@ add_action( 'wp_enqueue_scripts', 'make_enqueue_scriptsnstyles' );
 	<slide class="segue dark nobackground">
 		<aside class="gdbar"><img src="images/wordpress-logo-simplified-rgb.png"></aside>
 		<hgroup class="auto-fadein">
-			<h2>Modals, and carousels...</h2>
+			<h2>Carousels...</h2>
 		</hgroup>
 	</slide>
 
@@ -546,7 +568,7 @@ add_action( 'wp_enqueue_scripts', 'make_enqueue_scriptsnstyles' );
 
 	<slide>
 		<hgroup>
-			<h2>Modal Window Slideshow</h2>
+			<h2>Bootstrap Carousel Slideshow</h2>
 		</hgroup>
 		<article>
 			<ul class="build">
