@@ -6,5 +6,10 @@ This presentation is provided as a Github page. You can [find it here](http://wh
 
 * [Twitter](http://twitter.com/whyisjake)
 * [Facebook](http://facebook.com/whyisjake)
-* [Github](http://twitter.com/whyisjake)
-* [G+](http://twitter.com/whyisjake)
+* [Github](http://github.com/whyisjake)
+* [G+](http://gplus.to/whyisjake)
+
+Some other useful links:
+
+* [Bootstrap](http://getbootstrap.com)
+* [Carousel Function](https://gist.github.com/whyisjake/5997616)
