@@ -2,7 +2,7 @@
 @import "compass/css3/columns";
 @import "compass/css3/user-interface";
 
-$social-tags: '#wcslc @whyisjake is just killing it... ;)';
+$social-tags: 'Learning a ton about @TWBootstrap from @whyisjake at the #wpsf meetup. ;)';
 $brand-small-icon-size: 30px;
 
 $gray-1: #e6e6e6;
@@ -174,7 +174,7 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/badge.png) no-repeat 0 50%;
+      background: url(../../images/wordpress-logo-32-blue.png) no-repeat 0 50%;
       @include background-size($brand-small-icon-size $brand-small-icon-size);
       padding-left: $brand-small-icon-size + 10;
       height: $brand-small-icon-size;
@@ -411,7 +411,7 @@ code {
   font-size: 95%;
   font-family: 'Inconsolata', 'Courier New', monospace;
   color: #EEE;
-  border: 1px solid #EEE;
+  font-weight: bold;
   padding: 3px;
   border-radius: 3px;
 }
